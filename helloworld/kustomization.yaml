@@ -8,3 +8,5 @@ resources:
 - service.yaml
 - analysis.yaml
 - gateway.yaml
+
+namespace: default
