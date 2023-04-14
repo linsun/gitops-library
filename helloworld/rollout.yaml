@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: docker.io/istio/examples-helloworld-v1
+        image: docker.io/istio/examples-helloworld-v2
         imagePullPolicy: IfNotPresent #Always
         ports:
         - containerPort: 5000
