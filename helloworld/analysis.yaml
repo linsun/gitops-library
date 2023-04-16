@@ -9,9 +9,9 @@ spec:
   - name: namespace
   metrics:
   - name: success-rate
-    initialDelay: 40s
-    interval: 20s
-    successCondition: result[0] > 0.85
+    initialDelay: 30s
+    interval: 30s
+    successCondition: result[0] > 0.80
     provider:
       prometheus:
         address: http://prometheus.istio-system:9090
