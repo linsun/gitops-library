@@ -11,7 +11,7 @@ spec:
   - name: success-rate
     initialDelay: 30s
     interval: 30s
-    successCondition: result[0] > 0.90
+    successCondition: result[0] > 0.95
     provider:
       prometheus:
         address: http://prometheus.istio-system:9090
